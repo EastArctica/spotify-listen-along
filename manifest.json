@@ -1,0 +1,9 @@
+{
+  "name": "Spotify Listen Along",
+  "version": "0.0.1",
+  "description": "Enables the spotify listen along feature without spotify premium.",
+  "author": "East_Arctica#7667",
+  "license": "MIT",
+  "repo": "https://github.com/EastArctica/spotify-listen-along",
+  "dependencies": []
+}
