@@ -5,4 +5,4 @@ This is a plugin made for [Powercord](https://github.com/powercord-org/powercord
 `git clone https://github.com/EastArctica/spotify-listen-along.git`
 
 ## Credit
-Ordinall for the BetterDiscord implementation this was based off[SpotifyListenAlong](https://github.com/ordinall/BetterDiscord-Stuff/tree/master/Plugins/SpotifyListenAlong)
+Ordinall for the BetterDiscord implementation this was based off [SpotifyListenAlong](https://github.com/ordinall/BetterDiscord-Stuff/tree/master/Plugins/SpotifyListenAlong)
