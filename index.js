@@ -16,7 +16,7 @@ module.exports = class SpotifyListenAlong extends Plugin {
                 isPremium: true
             });
             return token;
-        }
+        };
         getModule(['isSpotifyPremium'], false).isSpotifyPremium = () => true;
     }
 
