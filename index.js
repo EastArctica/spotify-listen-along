@@ -1,5 +1,5 @@
 const { Plugin } = require('powercord/entities');
-const { FluxDispatcher, getModule, constants } = require('powercord/webpack');
+const { FluxDispatcher, getModule } = require('powercord/webpack');
 
 let originalGetProfile = null;
 let originalIsSpotifyPremium = null;
@@ -11,7 +11,7 @@ module.exports = class SpotifyListenAlong extends Plugin {
 
         getModule(['getProfile'], false).getProfile = (id, token) => {
             FluxDispatcher.dispatch({
-                type: constants.ActionTypes.SPOTIFY_PROFILE_UPDATE,
+                type: 'SPOTIFY_PROFILE_UPDATE',
                 accountId: id,
                 isPremium: true
             });
